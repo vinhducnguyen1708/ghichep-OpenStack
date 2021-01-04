@@ -1034,6 +1034,10 @@ root@octavia:~/octavia# curl --insecure https://172.24.4.16
 Welcome to 10.0.0.13
 root@octavia:~/octavia# curl --insecure https://172.24.4.16
 Welcome to 10.0.0.7
+
+
+ curl --ciphers 'DEFAULT:!DH' --insecure  https://192.168.10.29
+
 ```
 
 DONE
